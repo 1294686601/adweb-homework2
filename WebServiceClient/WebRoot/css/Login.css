@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+
+#container{
+	width: 900px;
+	margin: 0 auto;
+	background-color: #eee;
+}
+
+#back{
+	height: 250px;
+}
+
+#content{
+	position: relative;
+
+}
+
+form{
+	position: absolute;
+	top: 20px;
+	left: 38%;
+}
+
+.text_input{
+	margin-bottom: 20px;
+	width: 200px;
+	height: 20px;
+}
+
+#login{
+	position: absolute;
+	width: 80px;
+	height: 30px;
+	background-color:#eee;
+	color:#111;
+	font-size: 18px;
+	left: 126px;
+	top: 90px;
+}
+
+span  #error{
+	color: #f00;
+}

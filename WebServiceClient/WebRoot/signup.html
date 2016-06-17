@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Sign Up</title>
+	<script type="text/javascript" src="js/jquery.min.js" defer="defer" charset="utf-8"></script>
+	<script type="text/javascript" src="js/signup.js" defer="defer" charset="utf-8"></script>
+</head>
+<body>
+
+	<div id='content'>
+		<div id="img-container" style="">
+			<a href="#" id="mask-file1">
+			<img src="" alt="" style="width: 100px;border-radius: 6px;border: 1px rgba(214, 234, 255, 0.35) solid;"/>
+			</a>
+		</div>
+	
+		<input id='username' placeholder='username'/>
+		<input id='password' placeholder='password'/>
+		<input id='password2' placeholder='password2'/>
+		<button id='submit'>注册</button>
+		<button id='login'>登录</button>
+	</div>
+	
+	<form action="Signup" id='form' style="display: none;" target="upload_target" method="post" enctype="multipart/form-data">
+		<input id='form-username' name='username' />
+		<input id='form-password' name='password' />
+		<input id='image1' name='image' />
+	</form>
+	
+	<iframe id="upload_target" name="upload_target" src="" style="width:0;height:0;border:0px solid #fff;"></iframe>
+</body>
+</html>
